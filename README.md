@@ -1,6 +1,6 @@
 # A Question About Swift and NSCoding
 
-It appears that when an object adheres to the `NSCoding` protocol, it also **must** have an `init` method even when it is, say, inheriting from `NSObject`
+It appears that when a class adheres to the `NSCoding` protocol, it also **must** have an `init` method even when it is, say, inheriting from `NSObject`
 
 Why is that the case?
 
